@@ -40,7 +40,8 @@ The platformio.ini file contains the configuration for the ESP32 board. The curr
 ### Usage
 1. Connect the Hall effect sensor to pin 32 of the ESP32.
 2. Upload the code to the ESP32.
-3. Start pedaling on your bike trainer. The ESP32 will detect the cadence and transmit the data over BLE.
+3. Connect via BLE to the ESP32 using your software of choice (currently tested only with Zwift).
+4. Start pedaling on your bike trainer. The ESP32 will detect the cadence and transmit the data over BLE.
 
 ## Contributing
 
